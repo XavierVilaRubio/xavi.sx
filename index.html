@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto" rel="stylesheet">
-        	<script src="https://kit.fontawesome.com/7e8725a617.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="main.css">
-        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-        <title>Xavi</title>
-    </head>
-    <body>
-        <h1>Coming Soon.</h1>
-        <div class="contact">
-            <a href="mailto:hello@xavi.sx" class="email"><i class="far fa-envelope"></i>hello@xavi.sx</a>
-            <a href="https://instagram.com/xavi.sx" target="blank_" class="insta"><i class="fab fa-instagram"></i>@xavi.sx</a>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <title>Xavi</title>
+    <script>
+        window.addEventListener('resize', () => {
+            let vh = window.innerHeight * 0.01;
+            let vw = window.innerWidth * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+            document.documentElement.style.setProperty('--vw', `${vw}px`);
+        });
+    </script>
+</head>
+<body>
+    <section class="intro">
+        <h1>Xavier Vila Rubio</h1>
+        <a href="#quien_soy">
+            <img class="scroll_img" src="./assets/mouse_scroll.svg" width="30">
+        </a>
+    </section>
+    <a name="quien_soy">
+        <section class="quien_soy">
+            <span class="helper"></span>
+            <div class="text">
+                <h2>Hola, soy Xavier Vila, estudiante de 2º curso del GTIDiC.</h2>
+                <br>
+                <p>Mi carrera profesional aún no ha empezado, es por eso que la única experiencia con la que cuento son los
+                    diversos proyectos que he ido desarrollando por mi cuenta.</p>
+                <br>
+                <p>Soy una persona activa, autodidacta, amante de la experimentación y la innovación.</p>
+            </div>
+    
+            <span class="helper"></span>
+            <img class="photo" src="assets/foto.png" alt="">
+    
+        </section>
+    </a>
+</body>
 </html>
