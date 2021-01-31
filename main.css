@@ -67,3 +67,20 @@ h1 {
   width: 25rem;
   max-width: calc(var(--vw, 1vw) * 100);
 }
+
+@media (max-width: 1024px) {
+  .quien_soy {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    margin: 5vh 0;
+    width: 85%;
+  }
+
+  .photo img {
+    float: right;
+    height: 50vh;
+  }
+}
