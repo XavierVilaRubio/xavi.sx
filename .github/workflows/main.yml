@@ -14,4 +14,4 @@ jobs:
         server: ftp.xavi.sx
         username: ftp.xavi.sx
         password: ${{ secrets.ftp_password }}
-        server-dir: /public
+        server-dir: /public/
