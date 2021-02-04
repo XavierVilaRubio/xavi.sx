@@ -82,6 +82,7 @@ h1 {
 
   .photo img {
     display: block;
+    margin: 0 auto 5vh auto;
     margin-left: auto;
     margin-right: auto;
     height: 50vh;
