@@ -66,6 +66,25 @@ h2 > a {
   font-size: 120%;
 }
 
+h3 {
+  margin-bottom: 10px;
+}
+
+.social-links > li {
+  display: inline;
+  list-style: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.social-links > li:first-child {
+  padding: 10px 10px 10px 0px;
+}
+
+.social-links > li > a {
+  text-decoration: none;
+  color: #5772c3;
+}
+
 .photo {
   float: right;
   width: 25rem;
