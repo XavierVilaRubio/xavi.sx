@@ -108,6 +108,7 @@ h3 {
 }
 
 .button-cv {
+  min-width: fit-content;
   margin-top: 15px;
   font-size: 20px;
   padding: 10px;
